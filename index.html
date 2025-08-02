@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Ban Phá Atlantis</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      position: relative;
+    }
+    .container {
+      position: relative;
+      width: 100%;
+      max-width: 800px;
+      margin: auto;
+    }
+    .background-img {
+      width: 100%;
+      display: block;
+    }
+    .click-zone {
+      position: absolute;
+      cursor: pointer;
+    }
+
+    #text-zone {
+      top: 40px;
+      left: 50px;
+      width: 300px;
+      height: 60px;
+    }
+
+    #group-zone {
+      top: 130px;
+      left: 40px;
+      width: 420px;
+      height: 260px;
+    }
+
+    #shell-zone {
+      bottom: 50px;
+      right: 40px;
+      width: 80px;
+      height: 80px;
+    }
+
+    .click-zone:hover {
+      outline: 2px dashed red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="screenshot.png" alt="Ban Phá Atlantis" class="background-img">
+
+    <a href="https://example.com/du-an" target="_blank">
+      <div class="click-zone" id="text-zone"></div>
+    </a>
+
+    <a href="https://example.com/album" target="_blank">
+      <div class="click-zone" id="group-zone"></div>
+    </a>
+
+    <a href="https://example.com/oc" target="_blank">
+      <div class="click-zone" id="shell-zone"></div>
+    </a>
+  </div>
+</body>
+</html>
